@@ -1,4 +1,7 @@
 {
   "presets": ["@babel/preset-env", "@babel/preset-typescript"],
-  "plugins": []
+  "plugins": [
+    "./babel/babel-plugin-directory-named-import.js",
+    "./babel/cell-like.js"
+  ]
 }
